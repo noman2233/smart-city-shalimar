@@ -1,0 +1,109 @@
+.shoppingBay_container {
+    width: 100%;
+  }
+  .shoppingBay_wrapper {
+    display: flex;
+    justify-content: space-around;margin: 20px auto;
+  }
+  .shoppingBay_heading {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+  }
+
+  .shoppingBay_heading_hr {
+    width: 80px;
+    background-color: #166d47;
+    border: none;
+    display: block;
+    height: .5px;
+    overflow: visible;
+    position: relative;
+    margin: 0px auto;
+  }
+  .shoppingBay_heading_hr::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 40px;
+    height: 2px;
+    background: #64c9d8;
+    margin: 0 auto;
+    bottom: 0;
+  }
+
+
+  .shoppingBay_heading span {
+    color: #64c9d8;
+  }
+  .shoppingBay_col_1 {
+  }
+  .shoppingBay_image {
+    border: 1px solid #136c47;
+  }
+  .shoppingBay_container {
+  }
+  .shoppingBay_col_2 {
+    width: 40%;
+  }
+  
+  .shoppingBay_col_2 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(56, 56, 56);
+    line-height: 30px;
+  }
+  .shoppingBay_col_2 p b {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .shoppingBay_col_2 b {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .shoppingBay_ListItem {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 0px;
+  }
+  
+
+  
+/* ********** responsive css **************  */
+
+@media only screen and (max-width: 1600px) {
+  .shoppingBay_image {
+    width: 80%;
+  }
+
+  .shoppingBay_col_1 {
+    width: 36%;
+    height: 298px;
+  }
+  .shoppingBay_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .shoppingBay_Bay_mainPara {
+    width: 80vw !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .shoppingBay_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .shoppingBay_col_2 {
+    width: 95%;
+  }
+  .shoppingBay_col_1 {
+    width: 95%;
+    height: auto;
+  }
+}

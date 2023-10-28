@@ -1,0 +1,136 @@
+.blog_comment {
+  background-color: #fbfbfb;
+  width: 95%;
+  border: 1px solid rgb(215, 215, 215);
+  padding: 10px 20px;
+  margin: 20px 0px;
+}
+.comment_heading h1 {
+  margin: 10px 10px;
+  font-size: 28px;
+  font-weight: 400;
+  align-items: justify;
+}
+.comment_heading p {
+  font-size: 17px;
+  margin: 10px 10px;
+  font-weight: 400;
+  color: rgb(124, 124, 124);
+}
+
+.post_comment_form {
+  display: flex;
+  -ms-flex-align: start;
+  align-items: center;
+  flex-direction: column;
+}
+.comment_input {
+  width: 100%;
+  padding: 25px 10px;
+  border: 1px solid rgb(229, 227, 227);
+  margin: 5px 0px;
+  background-color: #ffffff;
+}
+.comment_input::placeholder {
+  font-size: 16px;
+  color: rgb(166, 166, 166);
+  font-family: poppins;
+}
+
+.control_input {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0pc 16px;
+}
+
+.input_teax5tare {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_teax5tare textarea {
+  padding: 8px;
+  border-radius: 4px;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  color: rgb(166, 166, 166);
+}
+
+.post_icon_comment {
+  color: white;
+  gap: 40px;
+}
+.blog_textarea {
+  width: 340px;
+  margin: 0px 20px;
+  border: 1px solid rgb(229, 227, 227);
+}
+.blog_textarea:focus {
+  outline: none;
+}
+
+.comment__post_button {
+  padding: 14px 13px;
+  color: white;
+  background-color: #0f7d4a;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  gap: 10px;
+  margin: 4px;
+}
+.comment__post_button:hover {
+  background-color: #ffd53f;
+}
+.button_blog {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/* ***************** responsive css ********************* */
+
+@media only screen and (max-width: 1000px) {
+  .blog_comment {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .singlePostTitle {
+    font-size: 25px;
+}
+  .comment_heading {
+    width: 100%;
+  }
+  .control_input {
+    width: 100%;
+  }
+  .input_teax5tare textarea {
+    width: 100%;
+  }
+  .blog_textarea {
+    margin: 0px 4px;
+  }
+  .comment__post_button {
+    margin: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .input_teax5tare {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog_comment {
+    margin: 20px auto;
+  }
+}

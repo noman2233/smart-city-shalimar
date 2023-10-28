@@ -1,0 +1,225 @@
+.about_features_container {
+  width: 100vw;
+  margin: 50px auto 60px auto;
+}
+
+.about_features_wrapper {
+  width: 80%;
+  margin: 30px auto;
+}
+.about_features_wrapper h1 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #212529;
+}
+.about_features_wrapper p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.feature_deatil_heading_hr {
+  width: 80px;
+  margin: 0px 10px;
+  background-color: black;
+  border: none;
+  display: block;
+  height: 1px;
+  overflow: visible;
+  position: relative;
+}
+.feature_deatil_heading_hr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 45px;
+  height: 3px;
+  background: #ffd53f;
+  bottom: 0;
+}
+
+.about_features_column_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.about_features_col_1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about_feature_col_1_sub {
+  border-bottom: 2px dashed #198754;
+}
+.small_feature_box {
+  width: 348px;
+  height: 140px;
+  border-top: 2px dashed #198754;
+  line-height: 15px;
+}
+.small_feature_box h1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #198754;
+}
+.small_feature_box p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.about_features_col_2 {
+  width: 50%;
+}
+
+.about_feature_image_col2 {
+  width: 100%;
+  height: 570px;
+  object-fit: cover;
+}
+
+/* ***********  responsive css ************** */
+@media only screen and (max-width: 1700px) {
+  .about_features_wrapper {
+    width: 90%;
+  }
+  .about_features_column_wrapper {
+    display: flex;
+    gap: 30px;
+  }
+  .about_features_col_1 {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .about_features_col_2 {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .about_features_col_1 {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+  }
+  .small_feature_box h1 {
+    font-size: 16px;
+  }
+  .small_feature_box p {
+    font-size: 15px;
+  }
+  .about_features_col_2 {
+    width: 45%;
+  }
+  .about_feature_col_1_sub {
+    width: 100%;
+  }
+  .small_feature_box {
+    width: 90%;
+    height: auto;
+  }
+  .small_feature_box p {
+    line-height: 24px;
+  }
+  .about_features_col_1 {
+    width: 50%;
+    display: flex;
+    align-items: unset;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .small_feature_box h1 {
+    font-size: 14px;
+  }
+  .about_features_column_wrapper {
+    display: flex;
+    gap: 0px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about_features_column_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about_features_col_2 {
+    width: 100%;
+  }
+  .about_feature_image_col2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .about_features_col_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .small_feature_box {
+    height: 160px;
+    border-top: 2px dashed #198754;
+    line-height: 15px;
+  }
+  .small_feature_box h1 {
+    font-size: 17px;
+  }
+  .small_feature_box p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .small_feature_box h1 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .small_feature_box p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about_features_wrapper h1 {
+    font-size: 20px;
+  }
+  .about_features_col_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .small_feature_box {
+    width: 95%;
+    height: auto;
+  }
+  .small_feature_box {
+    height: auto;
+    border-top: 2px dashed #198754;
+    line-height: 15px;
+  }
+  .small_feature_box h1 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .small_feature_box p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .about_feature_col_1_sub {
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .about_features_wrapper p {
+    font-size: 14px;
+  }
+}

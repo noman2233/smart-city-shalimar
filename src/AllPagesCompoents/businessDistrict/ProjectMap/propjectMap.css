@@ -1,0 +1,64 @@
+.project_plane_page_container {
+  width: 100vw;
+  padding: 30px 0px;
+}
+.project_plane_page_container_heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  line-height: 30px;
+  margin: 0px;
+}
+.project_plane_page_container_heading span {
+  color: #ffd53f;
+}
+
+.project_plane_page_hr {
+  width: 80px;
+  margin: 0px auto;
+  background-color: black;
+  border: none;
+  display: block;
+  height: 1px;
+  overflow: visible;
+  position: relative;
+  margin: 20px auto;
+}
+
+.project_plane_page_hr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 45px;
+  height: 3px;
+  background: #ffd53f;
+  bottom: 0;
+}
+.project_plane_page_wrapper {
+  width: 85%;
+  background-image: url("https://www.shalimarsmartcity.com/images/smartcity_featur_bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+  margin: 30px auto;
+  padding: 40px 0px;
+}
+.project_plane_page_image {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  border-radius: 70px;
+  border: 3px solid #ffd53f;
+}
+/* ****************** responsive css ***************** */
+
+@media only screen and (max-width: 1200px) {
+  .payment_plane_page_wrapper {
+    width: 90% !important;
+  }
+  .payment_plane_page_image{
+    width: 80%;
+  }
+}

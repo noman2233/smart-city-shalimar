@@ -1,0 +1,13 @@
+.contact_slider {
+  border-top-left-radius: 213px;
+  border-top: 10px solid #136c47;
+}
+
+.contact_slider_image {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 2px solid rgb(211, 207, 207);
+  border-top: 10px solid #ffd53f;
+  border-top-left-radius: 213px;
+}

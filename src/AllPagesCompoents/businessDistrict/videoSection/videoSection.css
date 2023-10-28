@@ -1,0 +1,93 @@
+.video_section_main_container {
+  padding: 60px 0px;
+}
+.video_section_col_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px 0px;
+}
+.video_section_col_1 {
+  width: 42%;
+  height: 430px;
+}
+.video_section_col_2 {
+  width: 45%;
+  background-image: url("https://www.shalimarsmartcity.com/district-images/business_dis_img.png");
+}
+.video_section_col_2_wrapper {
+  width: 90%;
+}
+.video_section_col_2 p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  word-spacing: 2px;
+}
+
+.col_2_smallBanner p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  word-spacing: 2px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* ************************** responsive css ***************** */
+
+@media only screen and (max-width: 1500px) {
+  .video_section_col_2_wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .video_section_col_2 p {
+    font-size: 14px;
+    line-height: 24px;
+    word-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .video_section_col_1 {
+    width: 35%;
+    height: 340px;
+  }
+  .video_section_col_2 p {
+    font-size: 12px;
+    line-height: 20px;
+    word-spacing: 1px;
+  }
+  .video_section_col_2 {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .features_heading_main {
+    font-size: 32px;
+  }
+  .video_section_main_container {
+    padding: 30px 0px;
+  }
+  .video_section_col_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0px;
+  }
+  .video_section_col_1 {
+    width: 90%;
+    height: 400px;
+  }
+  .video_section_col_2 {
+    width: 90%;
+  }
+  .video_section_col_2 p {
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 24px;
+    word-spacing: 2px;
+  }
+}

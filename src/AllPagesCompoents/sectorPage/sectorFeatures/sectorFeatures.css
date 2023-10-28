@@ -1,0 +1,170 @@
+.sector_features_container_wrapper {
+}
+.sector_features_heading {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sector_features_boxes_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 30px 0px;
+}
+.sector_feature_box_container {
+  position: relative;
+  width: 18%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  background-image: url("https://kodesolution.com/2022/oitech/wp-content/plugins/mascot-core-oitech/assets/images/current-theme/icon-lines-3.png");
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 10px 30px 0px;
+}
+.sector_feature_box_container:hover {
+  background-image: url("https://kodesolution.com/2022/oitech/wp-content/plugins/mascot-core-oitech/assets/images/current-theme/shape-1.jpg");
+  color: white !important 
+  ;
+
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.sector_feature_box_icon {
+  background-color: #136c47;
+  padding: 15px;
+  font-size: 70px !important;
+  color: white;
+  stroke: white;
+  stroke-width: 0.5px;
+}
+.sector_feature_box_container h1 {
+  width: 70%;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-align: start;
+  padding: 10px 0px 0px 0px;
+}
+
+.sector_feature_box_container p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(103, 100, 100);
+  margin: 0px;
+}
+
+.sector_feature_box_absolute {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(237, 237, 237);
+}
+
+.sector_feature_box_container:hover h1 {
+  color: white;
+}
+
+.sector_feature_box_container:hover p {
+  color: white;
+}
+.sector_feature_box_container:hover .sector_feature_box_icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  font-size: 70px !important;
+  color: #ffd53f;
+  stroke: #ffd53f;
+  stroke-width: 0.5px;
+  border-radius: 50%;
+  transition: all 200ms linear 0s;
+}
+
+.sector_feature_box_container:hover .sector_feature_box_absolute {
+  color: rgb(86, 85, 85);
+}
+
+
+/* *************responsive css ************** */
+
+@media only screen and (max-width: 1400px) {
+  .sector_features_boxes_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0px;
+}
+
+
+}
+@media only screen and (max-width: 1300px) {
+  .sector_feature_box_icon {
+    padding: 15px;
+    font-size: 50px !important;
+  }
+
+}
+@media only screen and (max-width: 1200px) {
+  .sector_feature_box_container {
+    position: relative;
+    width: 20%;
+    height: 310px;
+    padding: 0px 15px;
+ 
+}
+ 
+
+}
+@media only screen and (max-width: 1000px) {
+  .sector_features_boxes_container {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0px;
+  }
+  .sector_feature_box_container {
+    position: relative;
+    width: 40%;
+    height: 310px;
+    padding: 0px 15px;
+ 
+}
+.sector_features_heading {
+  font-size: 28px;
+ 
+}
+
+}
+@media only screen and (max-width: 700px) {
+  .sector_features_boxes_container {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0px;
+  }
+  .sector_feature_box_container h1 {
+    width: 100%;
+  
+  }
+ 
+
+}
+@media only screen and (max-width: 580px) {
+  .sector_feature_box_container {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding: 30px 15px;
+ 
+}
+
+}

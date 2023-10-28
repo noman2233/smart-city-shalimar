@@ -1,0 +1,135 @@
+.sidebar {
+  width: 29%;
+  height: fit-content;
+  margin: 20px 30px;
+  color: 212529;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+}
+
+.sidebarImage {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgb(222, 218, 218);
+  margin: 10px 0px;
+}
+
+.sidebar_main_blogPosts_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar_popular {
+  width: 95%;
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffc107;
+}
+.sidebar_popular b {
+  font-size: 22px;
+  font-weight: 300;
+  color: rgb(48, 47, 47);
+}
+.side_bar_blog_box {
+  margin: -10px 0px 30px 0px;
+}
+.sidebarList {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.blog_sidebar_hr {
+  width: 100%;
+  border: 1px solid rgb(213, 211, 211);
+}
+
+.sidebar___post_hr {
+  position: relative;
+  width: 80px;
+  margin: 0px 10px;
+  background-color: black;
+  border: none;
+  display: block;
+  margin: 0px 0px 20px 0px;
+  overflow: visible;
+  align-self: flex-start;
+}
+.sidebar___post_hr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 45px;
+  height: 3px;
+  background: #ffd53f;
+  bottom: 0;
+}
+
+.sidebar_blog_category_time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+.sidebar_blog_category_time h1 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #1d1d1c;
+}
+.sidebar_blog_category_time p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1d1d1c;
+}
+.sidebar_icons {
+  color: #ffc107;
+  margin: 0px 10px;
+}
+
+.blog_comapny_feature {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0px;
+}
+
+/* ***************** responsive css ********************* */
+
+@media only screen and (max-width: 1484px) {
+  .blog_comapny_feature {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .sidebar_blog_category_time h1 {
+    font-size: 15px;
+  }
+  .sidebar_blog_category_time p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

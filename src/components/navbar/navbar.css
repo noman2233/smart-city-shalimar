@@ -1,0 +1,87 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  background-color: #fff;
+  padding: 10px 50px;
+  margin: 0px 0px -43px 0px;
+}
+.logo {
+  height: 70px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.navbar_logo_menu {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.Navbar nav ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0px 15px;
+  font-weight: 400;
+  font: bolder;
+  height: 17px;
+  font-size: 14px;
+  color: #232222;
+}
+.nav_bar_menu {
+  margin: 0px 40px 0px 0px;
+}
+.navbar_social {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.navbar_social_icons {
+  background-color: rgb(238, 234, 234);
+  padding: 4px;
+  font-size: 18px !important;
+  border-radius: 5px;
+  box-shadow: 3px 4px 6px -1px rgb(0 124 196 / 12%),
+    -3px -3px 10px -1px rgb(255 255 255 / 70%);
+}
+
+.navber_menu_hr {
+  height: 17px;
+  margin: 0px 7px;
+}
+.menu_item_navbar {
+  font-size: 35px !important;
+  color: rgb(154, 153, 153);
+  cursor: pointer;
+ 
+}
+
+/* ********* responsive css ******************8 */
+@media only screen and (max-width: 1420px) {
+  .Navbar nav ul a {
+    font-size: 12px;
+    margin: 0px 1px;
+  }
+  .logo {
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Navbar nav ul a {
+    font-size: 11.5px;
+    margin: 0px 1px;
+  }
+  .nav_bar_menu {
+    margin: 0px 10px 0px 0px;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  .nav_bar_menu {
+    display: none;
+  }
+}

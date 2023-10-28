@@ -1,0 +1,326 @@
+.media_post {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  border: 2px solid rgb(237, 236, 236);
+  margin: 20px 0px;
+}
+.media_blog_post_image_post {
+  /* width: 405px;
+  height: 264px; */
+  width: 479px;
+  height: 300px;
+}
+.media_postImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  /* 
+  height: 100%;
+  margin: auto;
+  object-fit: cover; */
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.link b {
+  color: #dc143c;
+}
+.media_time_related {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 0;
+  border: 1px solid rgb(223, 223, 223);
+  padding: 9px 5px;
+  background-color: #f3f3f3;
+}
+.media_blog_icon {
+  font-size: 13px !important;
+  color: #fbbc05;
+}
+.media_time_related span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black !important;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.media_postInfo {
+  width: 60%;
+
+  line-height: 0px;
+}
+
+.postCat {
+  font-weight: 400;
+  font-size: 11px;
+  color: black;
+  line-height: 19px;
+  margin-top: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.media_postTitle {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  cursor: pointer;
+  color: rgb(21, 21, 21);
+  text-align: start;
+}
+.media_postTitle_hr {
+  width: 80px;
+  margin: 20px 0px;
+  align-self: flex-start;
+  background: rgb(62, 61, 61);
+  border: none;
+  display: block;
+  height: 1px;
+  overflow: visible;
+  position: relative;
+}
+.media_postTitle_hr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 45px;
+  height: 3px;
+  background-color: #fbbc05;
+  bottom: 0;
+}
+
+.postDate {
+  font-size: 14px;
+  font-weight: 900;
+  color: black;
+  margin-top: 15px;
+}
+
+.media_postDesc {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  color: #212529;
+  margin: 5px 0px;
+}
+.media_blog_button {
+  display: flex;
+  align-items: center;
+  background-color: #136c47;
+  color: white;
+  border: 2px solid #fbbc05;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "poppins";
+  padding: 7px 45px;
+  color: white;
+  gap: 10px;
+  line-height: 21px;
+  border-radius: 50px 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+}
+.media_blog_button:hover {
+  color: white;
+  background-color: #fbbc05;
+}
+.media_social_blog {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.media_social_readmore {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.media_blog_fb {
+  font-size: 20px !important;
+  color: #fff;
+  background-color: #466ca9;
+  border-radius: 50%;
+  padding: 8px;
+}
+.media_blog_youtube {
+  font-size: 20px !important;
+  color: #fff;
+  background: #cd0076;
+  border-radius: 50%;
+  padding: 8px;
+}
+.media_blog_instagram {
+  font-size: 20px !important;
+  color: #fff;
+  background: linear-gradient(-120deg, #4285f4, #ea4335, #fbbc05, #34a853);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.media_blog_linkedin {
+  font-size: 20px !important;
+  color: #fff;
+  background-color: #0072b1;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+/* ************* Responsive css ***************** */
+
+@media only screen and (max-width: 1500px) {
+  .media_postTitle {
+    font-size: 18px !important;
+  }
+  .media_postDesc {
+    font-size: 13px !important;
+  }
+
+  .media_blog_button {
+    font-size: 14px !important;
+    font-weight: 400;
+    padding: 8px 25px !important;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .media_blog_post_main_page {
+    width: 98vw;
+  }
+  .media_postTitle {
+    font-size: 16px !important;
+  }
+
+  .blog_post_red_more {
+    font-size: 12px !important;
+    font-weight: 400;
+    padding: 6px 18px !important;
+  }
+  .media_blog_youtube,
+  .media_blog_fb,
+  .media_blog_instagram,
+  .media_blog_linkedin {
+    font-size: 20px !important;
+    padding: 4px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .media_blog_post_image_post {
+    width: 409px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .media_blog_post_main_page {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .media_post {
+    width: 95vw !important;
+  }
+  .sidebar {
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .sidebar_blog_container {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .media_post {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .media_blog_post_image_post {
+    width: 100% !important;
+  }
+
+  .media_postImg {
+    object-fit: fill;
+    object-position: unset;
+  }
+
+  .media_postInfo {
+    width: 90% !important;
+    margin: auto !important;
+    padding: 0px 0px 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .media_postInfo {
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .media_postInfo {
+    line-height: 20px;
+  }
+
+  .media_blog_button {
+    padding: 7px 35px !important;
+    font-size: 12px !important;
+  }
+  .media_postTitle {
+    font-size: 14px !important;
+  }
+  .media_blog_youtube,
+  .media_blog_fb,
+  .media_blog_instagram,
+  .media_blog_linkedin {
+    font-size: 17px !important;
+    padding: 6px !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .media_blog_button {
+    padding: 6px 24px !important;
+    font-size: 11px !important;
+  }
+ 
+  .media_blog_youtube,
+  .media_blog_fb,
+  .media_blog_instagram,
+  .media_blog_linkedin {
+    font-size: 16px !important;
+    padding: 5px !important;
+  }
+
+}
+@media only screen and (max-width: 310px) {
+  .media_blog_button {
+    padding: 5px 20px !important;
+    font-size: 10px !important;
+  }
+ 
+  .media_blog_youtube,
+  .media_blog_fb,
+  .media_blog_instagram,
+  .media_blog_linkedin {
+    font-size: 14px !important;
+    padding: 5px !important;
+  }
+
+
+}

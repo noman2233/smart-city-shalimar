@@ -1,0 +1,74 @@
+.event_card_container {
+  width: 85vw;
+  margin: 0 auto;
+  margin: 50px auto 60px auto;
+}
+
+.slick-slide > div {
+  margin: 0 30px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.event_card_blog_card {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  height: 450px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+  padding: 10px 0px 30px 0px;
+}
+
+.event_card_blog_card-top h1 {
+  font-size:12px;
+  margin: 20px;
+}
+
+.event_card_blog_card-top > img {
+  width: 95%;
+  height: 300px;
+  margin:10px auto;
+  object-fit: cover;
+  border: 20ps solid #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.event_date {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 60%;
+  background-color: #136c47;
+  padding: 10px 20px;
+  outline: 1px solid white;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-family: "poppins";
+  box-shadow: 0 0 0 5px #136c47, inset 0 0 0 1px #fff;
+}
+
+.event_card_details {
+  margin: 50px 0px 0px 0px;
+}
+.event_title h1 {
+  color: #212529;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  margin: 0px 0px 20px 0px;
+}
+.event_city h1 {
+  color: #212529;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+}

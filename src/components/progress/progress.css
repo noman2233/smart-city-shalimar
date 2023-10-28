@@ -1,0 +1,135 @@
+/* **************** card css *********** */
+.progress_card_component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.progress_container {
+  position: relative;
+  width: 230px;
+  height: 200px;
+  margin: 10px;
+  background-color: #e3e3e3;
+  border-top-right-radius: 50px;
+  border: 3px solid rgb(207, 207, 207);
+}
+.progress_image {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  border: 4px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+.date_progress {
+  background-color: #136c47;
+  padding: 6px;
+  font-size: 16px !important;
+  color: white;
+  font-weight: 300 !important;
+  text-align: center;
+}
+.date_progress:hover {
+  background-color: #ffd53f;
+}
+.progress_absolute {
+  position: absolute;
+  top: -8px;
+  right: -3px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid rgb(235, 234, 234);
+}
+
+/* ******************** end ********* */
+
+.progress_heading {
+  width: 100%;
+  font-size: 20px;
+  font: bolder;
+  font-weight: 300;
+  color: #136c47;
+  margin: 20px 30px;
+  text-align: start !important;
+}
+
+.progress_main_container {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+  margin: 50px auto 30px auto;
+}
+
+/* ***************** responsive css ********************* */
+
+@media screen and (max-width: 762px) {
+  .progress_container {
+    width: 20%;
+    height: 150px;
+  }
+  
+  .progress_image {
+    width: 67%;
+    height: 40%;
+  }
+  .date_progress {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 620px) {
+  .progress_container {
+    width: 27%;
+    height: 110px;
+    margin: 20px 10px;
+  }
+  .progress_image {
+    width: 50%;
+    height: 40%;
+  }
+  .date_progress {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .progress_container {
+    width: 24%;
+    height: 110px;
+    margin: 20px 10px;
+  }
+  .date_progress {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .progress_container {
+    width: 35%;
+    height: 110px;
+    margin: 20px 10px;
+  }
+  .date_progress {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .progress_container {
+    width: 55%;
+    height: 110px;
+    margin: 20px 10px;
+  }
+  .date_progress {
+    font-size: 14px;
+  }
+}

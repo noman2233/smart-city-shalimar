@@ -1,0 +1,102 @@
+.vision_container {
+  width: 100vw;
+}
+.vision_wrapper {
+  width: 70%;
+  position: relative;
+  background: #fff;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 21%;
+  border: 1px solid #ddd;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+  margin: 20px auto;
+}
+
+.vision_wrapper h1 {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.vision_wrapper p {
+  width: 70%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.vision_wrapper:before, .vision_wrapper:after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #ffd53f96, #ffc10780, #ffc10791, #136c47, #136c47);
+  background-size: 180%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+  border-radius: 285px;
+}
+
+.vision_deatil_heading_hr {
+  width: 80px;
+  margin:-8px auto 10px  auto;
+  background-color: black;
+  border: none;
+  display: block;
+  height: 1px;
+  overflow: visible;
+  position: relative;
+  padding: -29px 0px 20px 0px;
+}
+.vision_deatil_heading_hr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 45px;
+  height: 3px;
+  background: #ffd53f;
+  bottom: 0;
+}
+
+/* ***********  responsive css ************** */
+@media only screen  and (max-width:1500px) {
+  .vision_wrapper {
+    width: 85%;
+ 
+  }
+  
+}
+@media only screen  and (max-width:1100px) {
+ 
+.vision_wrapper h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.vision_wrapper p {
+  width: 85%;
+  font-size: 14px;
+}
+
+}
+@media only screen  and (max-width:770px) {
+  .vision_wrapper {
+    width: 80%;
+ 
+  }
+.vision_wrapper h1 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.vision_wrapper p {
+  width: 95%;
+  font-size: 14px;
+}
+
+}

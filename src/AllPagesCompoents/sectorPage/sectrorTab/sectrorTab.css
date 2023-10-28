@@ -1,0 +1,158 @@
+.sector_tabs_cotainer {
+  width: 100vw;
+  background-image: url("https://www.shalimarsmartcity.com/images/h2-bg1.jpeg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  /* padding: 40px 30px 60px 30px; */
+  margin-bottom: 60px;
+}
+.sector_top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px;
+}
+.sector_top_barButtons {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: rgb(31, 30, 30);
+  cursor: pointer;
+  outline: none;
+  border-bottom: 3px solid #333;
+  background-color: inherit;
+}
+.sector_top_barButtons_non_active {
+  font-size: 14.5px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(124, 122, 122);
+  cursor: pointer;
+  background-color: inherit;
+}
+.sector_top_bar_content_wrapper {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 70px 0px;
+  background-color: white;
+  z-index: 996;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+}
+.sector_top_bar_content_wrapper_non_active {
+  display: none;
+}
+.sector_top_bar_content_wrapper_col_1 {
+  width: 30%;
+}
+.sector_top_bar_content_wrapper_col_1 h1 {
+  font-size: 26px;
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+}
+.sector_top_bar_content_wrapper_col_1 p {
+  font-size: 16px;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 36px;
+  color: rgb(93, 91, 91);
+}
+.sector_top_bar_hr {
+  width: 80px;
+  border: 1px solid #ffd53f;
+  margin: 0px;
+}
+.sector_top_bar_content_wrapper_col_2 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sector_col2_floor {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(221, 218, 218);
+}
+.sector_col2_floor p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(41, 41, 41);
+}
+.sector_top_bar_content_wrapper_col_3 {
+  width: 30%;
+}
+
+.sector_tabs_col_3_Image {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 0px;
+}
+
+/* *************responsive css ************** */
+
+@media only screen and (max-width: 1300px) {
+  .sector_top_bar_content_wrapper {
+    width: 90%;
+  }
+  .sector_tabs_col_3_Image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sector_top_bar_content_wrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+  }
+  .sector_top_bar_content_wrapper_col_1 {
+    width: 90%;
+    margin: 10px 0px;
+  }
+  .sector_top_bar_content_wrapper_col_2 {
+    width: 70%;
+    margin: 10px 0px;
+  }
+  .sector_top_bar_content_wrapper_col_3 {
+    width: 90%;
+    margin: 10px 0px;
+  }
+  .sector_tabs_col_3_Image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .sector_top_barButtons {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .sector_top_barButtons_non_active {
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .sector_top_barButtons {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .sector_top_barButtons_non_active {
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .sector_top_bar {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+  }
+}

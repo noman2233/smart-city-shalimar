@@ -1,0 +1,107 @@
+.home_components_wrapper {
+  background-color: #fdfdfd;
+  padding: 45px 0px 0px 0px;
+}
+.home_property_slider_heading_image {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto 20px auto;
+  /* margin: 0px 0px -43px 0px; */
+}
+.home_components_paragraphs {
+  width: 85vw;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 0px;
+}
+.home_heading_hr_box {
+  position: relative;
+}
+
+.home_animities_heading_hr {
+  width: 190px;
+  border: 1.4px solid #136c47;
+  margin: 0 auto;
+}
+.home_animities_heading_hr_top {
+  position: absolute;
+  border: 1px solid rgb(255, 213, 63);
+  width: 90px;
+  right: 0px;
+  top: -378%;
+  left: 95px;
+  margin: 0px auto;
+}
+
+.home_animities_heading_hr_bottom {
+  position: absolute;
+  border: 1px solid rgb(255, 213, 63);
+  width: 90px;
+  right: 0px;
+  bottom: -378%;
+  left: -95px;
+  margin: 0px auto;
+}
+.progress_updates {
+  padding: 35px 0px;
+}
+.animinities_heading {
+  font-size: 44px;
+  font-weight: 500;
+  font: bolder;
+  text-align: center;
+  font-family: poppins;
+  color: black;
+  line-height: 20px;
+}
+.features_heading_main {
+  font-size: 44px;
+  font-weight: 500;
+  font: bolder;
+  text-align: center;
+  font-family: poppins;
+  padding: 40px 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.animinities_heading p {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  font-family: poppins;
+  color: #000000;
+}
+
+@media only screen and (max-width: 800px) {
+  .home_property_slider_heading_image {
+    height: 58px;
+    margin: 30px auto 20px auto;
+  }
+  .animinities_heading {
+    font-size: 28px !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .home_property_slider_heading_image {
+    height: 45px;
+    margin: 30px auto 20px auto;
+  }
+  .animinities_heading {
+    font-size: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home_property_slider_heading_image {
+    height: 35px;
+  }
+  .animinities_heading {
+    font-size: 20px !important;
+  }
+}

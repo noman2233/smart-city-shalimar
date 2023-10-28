@@ -1,0 +1,23 @@
+.payment_plane_container {
+  width: 100vw;
+  background-image: url("https://www.shalimarsmartcity.com/site-content/shalimar-smart-city-view-3.jpg");
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px auto 0px auto;
+
+}
+.payment_plane_box {
+  width: 100%;
+  background: rgba(19, 108, 71, 0.5);
+}
+.payment_plane_wrapper {
+  margin: auto;
+  width: 85%;
+}
+.payment_plane_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

@@ -1,0 +1,41 @@
+.heading__home_blogs {
+  background-color: #ffffff;
+}
+.media_blog_post_main_page {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  gap: 20px;
+}
+.recent_blog_post_heading {
+  margin: 40px 0px;
+  text-align: center;
+  width: 800px;
+}
+
+/* ***************** responsive css ********************* */
+@media only screen and (max-width: 1600px) {
+  .media_blog_post_main_page {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .media_blog_post_main_page {
+    width: 98vw;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .media_post {
+    width: 100% !important;
+  }
+ 
+}
+
+@media only screen and (max-width: 1000px) {
+  .media_blog_post_main_page {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}

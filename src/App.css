@@ -1,0 +1,404 @@
+.app {
+  position: relative;
+}
+/* *************** dark and light mode css  ************** */
+/* ***************sidebar menu  ************** */
+#dark .sidebar_menu nav ul a:hover {
+  color: #ffd53f;
+  background-color: #17714a;
+}
+#dark .sidebar_menu {
+  background-color: #084f30;
+}
+#dark .sidebar_menu nav ul a {
+  border-bottom: 1px solid #fefefe;
+}
+#dark .menu_item_navbar {
+  color: black;
+  background-color: white;
+  font-size: 20px !important;
+  padding: 2px;
+  border-radius: 3px;
+  box-shadow: 3px 4px 6px -1px rgb(0 124 196 / 12%),
+    -3px -3px 10px -1px rgb(255 255 255 / 70%);
+}
+/* *************** Navbar  ************** */
+
+/* #dark 136c47 */
+#dark .Navbar {
+  background-color: #084f30;
+}
+#dark .Navbar nav ul a {
+  font-size: 14px;
+  font-weight: 500;
+  height: 17px;
+  color: white;
+}
+#dark .navber_menu_hr {
+  color: #2d2d2d !important;
+}
+#dark .navbar_social_icons {
+  color: #eeb405 !important;
+}
+
+/* *************** footer  ************** */
+#dark .footer_second {
+  background-color: #084f30;
+}
+#dark .image_cpyright p {
+  color: white;
+}
+#dark .terms_policy p {
+  color: white;
+}
+
+/* *************** home Page   ************** */
+
+#dark .home_main_slider_component_Wrapper {
+  background-color: #084f30;
+}
+
+#dark .home_components_wrapper {
+  background-color: #ebe7c4;
+}
+
+#dark .progress_container {
+  background: #cdcdcd99;
+}
+#dark .facilities_heading {
+  color: #136c47;
+}
+#dark .event_card_blog_card {
+  background: white;
+}
+#dark .phone_app_wrapper {
+  background: #084f30;
+}
+#dark .gallary_home_main_page {
+  background-color: rgba(98, 138, 75, 0.2);
+}
+#dark .award_chairman_heading {
+  color: #136c47;
+}
+
+/* *************** Features Page   ************** */
+
+#dark .features_slider_page_container {
+  background-color: #084f30;
+}
+
+#dark .features_container {
+  background-color: #ebe7c4;
+}
+#dark .all_features_main_container {
+  background-color: #084f30;
+}
+#dark .card_warapper_heading {
+  color: white;
+}
+#dark .small_card_box_title {
+  color: white;
+}
+#dark .small_card_box_icon {
+  background-color: #ffd53f;
+  color: #084f30;
+}
+
+/* *************** Events  Page   ************** */
+
+#dark .event_slider_container {
+  background-color: #084f30;
+}
+#dark .event_page_main_container_wrapper {
+  background-color: #ebe7c4;
+}
+#dark .animinities_heading {
+  color: #17714a;
+}
+/* ** Events  Page  card  **** */
+#dark .event_page_card_wrapper {
+  background: white;
+}
+
+#dark .event_page_card_title h1 {
+  color: #eeb405;
+}
+
+#dark .event_page_card_button {
+  background-color: #eeb405;
+}
+#dark .event_page_card_button:hover {
+  background-color: #084f30;
+}
+
+/* ******************* contact us page **************** */
+#dark .contact_heading {
+  color: #17714a;
+}
+#dark .contact_slider_container_wrapper {
+  background-color: #084f30;
+}
+
+#dark .conatct_Page_main_allComponentWrapper {
+  background-color: #ebe7c4;
+}
+
+#dark .rowContactPage {
+  background-color: #136c47;
+  border-radius: 10px;
+}
+#dark .rowContactPage h1 {
+  color: white;
+}
+#dark .rowContactPage h3 {
+  color: #ffd53f;
+}
+#dark .contact_details h3 {
+  color: #17714a;
+}
+
+/* ******************* gallary page **************** */
+
+#dark .gallary_slider_container_wrapper {
+  background-color: #084f30;
+}
+#dark .gallary_page_component_container {
+  background-color: #ebe7c4;
+}
+#dark .gallary_page_component_image_wrapper {
+  background-color: #084f30;
+}
+#dark .gallary_page_component_image {
+  border: 5px solid white;
+}
+/* ******************* video page **************** */
+
+#dark .video_slider_container_wrapper {
+  background-color: #084f30;
+}
+
+#dark .video_page_Section_wrapper_videos {
+  background-color: #084f30;
+}
+#dark .video_page_Section_container {
+  background-color: #ebe7c4;
+}
+
+#dark .gallary_page_component_image {
+  border: 5px solid white;
+}
+
+/* ******************* development  page **************** */
+
+#dark .development_slider_conatiner_wrapper {
+  background-color: #084f30;
+}
+
+#dark .progress_main_container {
+  background-color: #166d47;
+}
+#dark .development_page_wrapper_container {
+  background-color: #ebe7c4;
+}
+#dark .progress_heading {
+  color: #ffd53f;
+}
+#dark .date_progress {
+  background-color: #ffd53f;
+}
+#dark .date_progress:hover {
+  background-color: #eeb405;
+}
+
+#dark .development_heading {
+  color: #17714a;
+}
+
+#dark .progress_home_container {
+  background-color: #e2e08c;
+}
+
+#dark .videos_container_heading {
+  color: #17714a;
+}
+
+/* ******************* bussiness district  page **************** */
+#dark .businessDistrict_slider_wrapper_container {
+  background-color: #084f30;
+}
+
+#dark .video_section_main_container {
+  background-color: #ebe7c4;
+}
+
+#dark .bussiness_district_features_container {
+  background-color: #ebe7c4;
+}
+
+#dark .project_plane_page_container {
+  background-color: #ebe7c4;
+}
+
+#dark .bussiness_district_page_dark_mode {
+  background-color: #ebe7c4;
+}
+
+#dark .payment_plane_page_container {
+  background-color: #ebe7c4;
+}
+
+#dark .payment_plane_page_container {
+  background-color: #ebe7c4;
+}
+
+#dark .bussiness_districtFeature_wrapper {
+  background-color: #084f30;
+}
+
+#dark .bussiness_page_small_card_box_title {
+  color: white;
+}
+#dark .bussiness_page_card_warapper_heading {
+  color: white;
+}
+
+#dark .bussiness_page_small_card_box_icon {
+  background-color: #ffd53f;
+  color: #166d47;
+}
+
+/* ******************* terms and Condition  page **************** */
+#dark .terms_condition_slider_containerWrapper {
+  background-color: #ebe7c4;
+}
+#dark .terms_condition_wrapper {
+  background-color: #084f30;
+}
+#dark .terms_condition_wrapper h1 {
+  color: #fff;
+}
+#dark .terms_condition_wrapper_title {
+  color: #fff;
+}
+#dark .terms_list_title {
+  color: #fff;
+}
+#dark .terms_condition_detail_desc {
+  color: #fff;
+}
+#dark .terms_List_Item_container {
+  color: #fff;
+}
+#dark .terms_condition_heading {
+  color: #17714a;
+}
+
+/* ******************* privacy policy  page **************** */
+#dark .privacy_policy_heading {
+  color: #166d47;
+}
+
+#dark .privacy_policy_wrapper {
+  color: #17714a;
+}
+#dark .privacy_policy_wrapper {
+  background-color: #084f30;
+}
+#dark .policy_heading_title {
+  color: white;
+}
+#dark .policy_desc_details {
+  color: white;
+}
+#dark .privacy_List_Item {
+  color: white;
+}
+#dark .privacy_List_Item_container {
+  color: white;
+}
+#dark .privacy_answer_quaetion_icon {
+  color: white;
+}
+
+/* ****************** about  Page ***************** */
+
+#dark .about_page_container_wrapper_darkMode {
+  background-color: #ebe7c4;
+}
+#dark .about_slider_container_wrapper {
+  background-color: #084f30;
+}
+
+/* ****************** sector  Page ***************** */
+
+#dark .sector_slider {
+  background-color: white;
+}
+
+#dark .sector_page_container_wrapper_dark {
+  background-color: #ebe7c4;
+}
+#dark .slider_features_box_icon {
+  background-color: #084f30;
+  stroke: white;
+  stroke-width: 1px;
+}
+
+#dark .slider_features_box_conatiner {
+  background-color: #ebe7c4;
+}
+
+#dark .sector_top_bar_content_wrapper {
+  background-color: #084f30;
+}
+#dark .sector_top_bar_content_wrapper_col_1 h1 {
+  color: white;
+}
+#dark .sector_col2_floor p {
+  color: white;
+}
+#dark .sector_tabs_col_3_Image {
+  border: 5px solid white;
+}
+#dark .sector_top_bar_content_wrapper_col_1 p {
+  color: rgb(222, 222, 222);
+}
+
+/* ****************** media Page ***************** */
+
+#dark .media_page_container_wrapper_dark {
+  background-color: #ebe7c4;
+}
+#dark .heading__home_blogs {
+  background-color: #ebe7c4;
+}
+#dark .media_post {
+  background-color: #fff;
+  border: 2px solid rgb(196, 193, 193);
+}
+#dark .media_postTitle {
+  color: #eeb405;
+  
+}
+/* ****************** media single post Page ***************** */
+#dark .media_single_blog_page{
+  background-color: #ebe7c4;
+}
+
+/* ****************** blog Page ***************** */
+#dark .blog_page_slider_containerWrapper{
+  background-color: #084f30;
+
+}
+#dark .post{
+  background-color: white;
+}
+#dark .progress_updates{
+  background-color: #ebe7c4;
+}
+
+/* ****************** 404 Page ***************** */
+
+#dark .not_found {
+  background: #ebe7c4;
+}

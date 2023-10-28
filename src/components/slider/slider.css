@@ -1,0 +1,12 @@
+.slider_image {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  border-top: 10px solid #ffd53f;
+  border-top-left-radius: 213px;
+  background-color:#136c47;
+}
+.slider {
+  border-top-left-radius: 213px;
+  border-top: 10px solid #136c47;
+}

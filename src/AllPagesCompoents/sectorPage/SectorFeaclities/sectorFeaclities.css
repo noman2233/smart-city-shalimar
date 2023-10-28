@@ -1,0 +1,255 @@
+/* ***** CARD CSS *************** */
+
+.sector_facilities_card_conatiner {
+  width: 70%;
+  margin: 0 auto;
+  margin: 10px auto 20px auto;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.sector_facilities_card_conatiner .slick-next {
+  display: none;
+  visibility: hidden;
+}
+.sector_facilities_card_conatiner .slick-prev {
+  display: none;
+  visibility: hidden;
+}
+.sector_facility_card {
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 999;
+  margin: 30px 0px;
+}
+.sector_facilityCard_main {
+  position: relative;
+}
+.sector_facilityCard_main > img {
+  width: 98%;
+  height: 500px;
+  object-fit: cover;
+}
+.sector_facility_card_hr {
+  width: 80px;
+  margin: 0px;
+  padding: 0px 10px;
+  border: 1px solid rgb(79, 78, 78);
+}
+
+.sector_card_content {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding: 0px 0px 0px 20px;
+}
+.sector_card_content h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+}
+.title_icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.sector_card_con {
+  font-size: 28px !important;
+  color: white;
+  stroke: white;
+  stroke-width: 1px;
+}
+
+.sector_bottom_menu_card {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sector_bottom_menu_card p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.sector_bottom_icon {
+  color: white;
+}
+.tour_card {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 3;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color: black;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 12px 6px;
+  text-transform: uppercase;
+  background: #ffd53f;
+}
+
+/* ***** card hover effect css *************** */
+
+.sector_facility_card:hover .sector_card_content {
+  padding-bottom: 30px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0,
+    rgba(15, 36, 84, 0.01) 2%,
+    rgba(15, 36, 84, 0.75) 90%
+  );
+  transition: all 200ms linear 0s;
+}
+
+.sector_facility_card:hover .sector_facility_card_hr {
+  width: 80%;
+  border: 1px solid rgb(117, 115, 115);
+  transition: all 200ms linear 0s;
+}
+
+/* ***** END of CARD CSS *************** */
+
+/* ***** sector-facilities  CSS *************** */
+.sector_gallery_container {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+  height: 500px;
+}
+.sector_gallery_container_wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100%;
+  width: 45%;
+  background-image: url("http://shalimarsmartcity.com/images/dvblog.jpg");
+}
+.sector_gallery_wrapper {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.sector_gallery_wrapper p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1px;
+}
+.sector_gallery_wrapper h1 {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+/* *************responsive css ************** */
+
+@media only screen and (max-width: 1300px) {
+  .sector_card_content h1 {
+    font-size: 24px;
+  }
+  .sector_gallery_wrapper h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sector_facilities_card_conatiner {
+    width: 80%;
+    margin: 0 auto;
+    margin: 10px auto 20px auto;
+  }
+  .sector_card_content h1 {
+    font-size: 24px;
+  }
+  .sector_gallery_wrapper h1 {
+    font-size: 30px;
+  }
+  .sector_gallery_wrapper {
+    width: 16%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sector_gallery_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .sector_gallery_container_wrapper {
+    display: none;
+  }
+  .sector_facilities_card_conatiner {
+    width: 95%;
+    margin: 0 auto;
+    margin: 10px auto 20px auto;
+  }
+  .sector_gallery_wrapper {
+    width: 80%;
+    text-align: center;
+  }
+
+  /* ************* card css ******** */
+  .sector_facility_card {
+    overflow: hidden;
+    position: relative;
+    height: 450px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+    margin: 30px 0px;
+  }
+
+  .sector_facilityCard_main > img {
+    width: 98%;
+    height: 430px;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sector_card_content h1 {
+    font-size: 22px;
+  }
+  .sector_card_con {
+    font-size: 20px !important;
+  }
+  .slick-slide > div {
+    margin: 0 6px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .sector_card_content h1 {
+    font-size: 18px;
+  }
+  .sector_card_con {
+    font-size: 18px !important;
+  }
+  .sector_bottom_menu_card p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .sector_facilities_card_conatiner {
+    width: 92%;
+  }
+}

@@ -1,0 +1,46 @@
+.media_singlePost_siebar {
+  width: 25%;
+  background-color: #fbfbfb;
+  border: 2px solid rgb(245, 243, 243);
+  padding: 20px;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+}
+.media_singlePost_siebar h1 {
+  font-size: 28px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+.media_singlePost_siebar_image {
+  width: 100%;
+  object-fit: cover;
+  margin: 5px auto;
+}
+
+/* ***************** responsive css ********************* */
+
+@media only screen and (max-width: 1400px) {
+  .media_singlePost_siebar h1 {
+    font-size: 24px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .media_singlePost_siebar h1 {
+    font-size: 22px !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .media_singlePost_siebar {
+    width: 85%;
+    background-color: #fbfbfb;
+    border: 2px solid rgb(245, 243, 243);
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+  }
+ 
+  .media_singlePost_siebar h1 {
+    font-size: 26px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+}

@@ -1,0 +1,126 @@
+.offers_conatiner_wrapper {
+  margin: 60px 0px 80px 0px;
+}
+.offers_conatiner_wrapper h1 {
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.offers_images_container_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 0px 20px;
+}
+
+.offer_image_container {
+  position: relative;
+  /* width: 460px; */
+  width: 25%;
+  height: 365px;
+  background-color: rgb(77, 76, 76);
+  cursor: pointer;
+}
+.offer_conatiner_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(38%);
+}
+.offer_conatiner_image:hover {
+  filter: brightness(90%);
+}
+.offer_card_details {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 30px;
+  height: 100%;
+}
+.offer_card_details h1 {
+  width: 80%;
+  font-size: 28px;
+  font-weight: 300;
+  color: white;
+  text-align: start;
+}
+.offer_card_details p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #cecdcd;
+  text-align: start;
+}
+
+.offer_image_container:hover .offer_card_details p {
+  display: none;
+}
+.offer_image_container:hover .offer_card_details h1 {
+  display: none;
+}
+
+.circulular_absolute_number_conatiner {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -56px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.circulular_absolute_number {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #136c47;
+  padding: 25px 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.offer_image_container:hover .circulular_absolute_number {
+  background-color: #ffd53f;
+}
+
+/* *************responsive css ************** */
+
+@media only screen and (max-width: 1400px) {
+  .offer_card_details h1 {
+    width: 90%;
+    font-size: 25px;
+  }
+  .offer_card_details p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .offers_images_container_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0px 20px;
+  }
+  .offers_conatiner_wrapper h1 {
+    font-size: 28px;
+  }
+  .offer_image_container {
+    /* width: 460px; */
+    width: 48%;
+    margin: 20px 0px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .offer_image_container {
+    width: 98%;
+    margin: 15px 0px;
+  }
+}

@@ -1,0 +1,141 @@
+.overview_container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 180px;
+  background-color: rgb(232, 232, 232);
+}
+.overview_row_1 {
+  width: 80%;
+  line-height: 15px;
+  padding: 0px 0px 0px 50px;
+}
+.overview_row_1 h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: balck;
+}
+.overview_row_1 p {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(152, 153, 153);
+}
+.overview_row_2_main_conatiner {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  padding: 0px 40px;
+  background-color: #136c47;
+  clip-path: circle(70% at 55% 50%);
+}
+.overview_main_container_img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.overview_main_second_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.overview_row_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* background: url(""); */
+  height: 100%;
+}
+.overview_row_2_icon {
+  font-size: 35px !important;
+  color: white;
+  stroke: white;
+  stroke-width: 1px;
+}
+.overview_call_heading {
+  line-height: 10px;
+}
+
+.overview_call_heading h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.overview_call_heading h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+}
+
+/* *************responsive css ************** */
+
+@media only screen and (max-width: 1550px) {
+  .overview_row_2_main_conatiner {
+    width: 28%;
+  }
+  .overview_call_heading h3 {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .overview_row_1 h1 {
+    font-size: 30px;
+  }
+  .overview_row_1 {
+    width: 65%;
+    line-height: 15px;
+    padding: 0px 0px 0px 20px;
+  }
+  .overview_row_2_main_conatiner {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .overview_row_1 h1 {
+    font-size: 24px;
+  }
+  .overview_row_1 {
+    width: 60%;
+    line-height: 15px;
+  }
+  .overview_row_2_main_conatiner {
+    width: 35%;
+  }
+  .overview_call_heading h3 {
+    font-size: 24px;
+  }
+  .overview_row_1 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(128, 128, 128);
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .overview_row_1 h1 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .overview_row_1 {
+    width: 55%;
+    line-height: 15px;
+  }
+  .overview_row_2_main_conatiner {
+    width: 40%;
+  }
+  .overview_call_heading h3 {
+    font-size: 20px;
+  }
+  .overview_row_1 p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+  }
+}
+@media only screen and (max-width: 900px) {
+  .overview_container {
+    display: none;
+  }
+}

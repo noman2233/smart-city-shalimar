@@ -1,0 +1,19 @@
+.contact_heading {
+  font-size: 42px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 50px 0px;
+}
+
+.contact_form_detail {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 0px;
+
+ 
+
+}

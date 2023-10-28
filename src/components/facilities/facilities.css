@@ -1,0 +1,87 @@
+.facilities_card_container {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin: 50px auto 60px auto;
+}
+.facilities_card_container .slick-next {
+  display: none;
+  visibility: hidden;
+}
+.facilities_card_container .slick-prev {
+  display: none;
+  visibility: hidden;
+}
+.facilities_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.facilities_card :hover {
+  transition: 450ms ease-in-out;
+}
+.facilities_icon {
+  font-size: 55px !important;
+  color: #136c47;
+  background-color: #fff;
+  padding: 33px;
+  box-shadow: #372828;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+}
+.facilities_heading {
+  color: #212529;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ***************** responsive css ********************* */
+@media only screen and (max-width: 1630px) {
+  .facilities_card_container {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin: 50px auto 60px auto;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .facilities_card_container {
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin: 50px auto 60px auto;
+  }
+  .facilities_heading {
+    font-size: 16px;
+  }
+  .facilities_icon {
+    font-size: 35px !important;
+    padding: 30px;
+  }
+}
+@media only screen and (max-width:600px) {
+  .facilities_card_container {
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin: 50px auto 60px auto;
+  }
+  .facilities_heading {
+    font-size: 14px;
+  }
+  .facilities_icon {
+    font-size: 30px !important;
+    padding: 28px;
+  }
+}

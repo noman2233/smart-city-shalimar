@@ -1,0 +1,23 @@
+.bussiness_district_main_page {
+  width: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  line-height: 10px;
+  margin: 40px 0px;
+  line-height: 20px;
+}
+.bussiness_disctrict_gallary_heading {
+  color: black;
+  font-size: 28px;
+  font-weight: 300;
+}
+.bussiness_disctrict_gallary_heading_hr {
+  width: 60px;
+  border:1.5px solid #ffc107;
+  margin: 0px;
+}
+.bussiness_disctrict_gallary_heading span {
+  color: #ffc107;
+}

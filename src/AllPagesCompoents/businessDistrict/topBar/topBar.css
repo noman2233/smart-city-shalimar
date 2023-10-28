@@ -1,0 +1,78 @@
+.bussiness_district_topBar {
+  background: #136c47;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+  padding: 7px 0px;
+  margin-top: -10px;
+  position: sticky;
+  top: 0;
+  border-top: 3px solid #ffc107;
+  border-bottom: 3px solid #ffc107;
+}
+
+.bussiness_district_topBar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.topBar_firstItem {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: black !important;
+  background: #ffc107;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
+.bussiness_district_topBar li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.bussiness_district_topBar li a {
+  text-decoration: none;
+}
+.topBarfirst_icon {
+  color: black;
+}
+.topBar_icon {
+  color: white;
+}
+.bussiness_district_topBar {
+}
+
+/* ************************** responsive css ***************** */
+
+@media only screen and (max-width: 1300px) {
+  .bussiness_district_topBar li {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .bussiness_district_topBar ul {
+    display: flex;
+    gap: 12px;
+  }
+  .topBar_icon,
+  .topBarfirst_icon {
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .topBarfirst_icon {
+    display: none !important;
+  }
+
+  .topBar_icon {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .bussiness_district_topBar ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,19 @@
+.media_posts_container_wrapper {
+  width: 60%;
+}
+.media_posts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+
+@media only screen and (max-width: 1000px){
+.media_posts_container_wrapper {
+    width: 95% !important;
+    margin: auto !important;
+}
+}

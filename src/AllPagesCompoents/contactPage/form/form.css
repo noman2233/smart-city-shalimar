@@ -1,0 +1,191 @@
+/* *************** form css ************************* */
+
+.rowContactPage {
+  width: 53%;
+  border: none !important;
+  background-color: #f8f8f8;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+  padding: 10px;
+}
+.contact_heading_sub {
+  line-height: 15px;
+  padding:15px 10px;
+}
+.rowContactPage h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212529;
+}
+.rowContactPage h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.contact_page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 5px 0px;
+}
+
+.contact_page_control_input {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.contact_main_page_input {
+  width: 50%;
+  padding: 25px 10px;
+  border: 1px solid rgb(217, 216, 216);
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.contact_main_page_input::placeholder {
+  font-size: 16px;
+  color: rgb(166, 166, 166);
+  font-family: Quicksand, sans-serif;
+}
+
+.contact_page_input_phone {
+  width: 95%;
+  padding: 25px 10px;
+  border: 1px solid rgb(217, 216, 216);
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.input_email {
+  width: 94%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0pc 16px;
+}
+
+.contact_page_input_teax5tare {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Quicksand, sans-serif;
+  gap: 15px;
+}
+.contact_page_input_teax5tare textarea {
+  width: 96%;
+  padding: 8px;
+  border-radius: 6px;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  color: rgb(166, 166, 166);
+  border: 1px solid rgb(217, 216, 216);
+}
+
+.contact_post_icon_comment {
+  width: 100%;
+  color: white;
+  gap: 40px;
+}
+.contact_page_textarea {
+  width: 90%;
+}
+
+.contact_web_page_button {
+  color: white;
+  background-color: #ecc464;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  margin: 10px 0px;
+  align-self: flex-start;
+  margin: 20px 10px;
+  cursor: pointer;
+  width: 250px;
+  padding: 22px 10px;
+}
+
+/* ************************  reponsive css *********************** */
+
+@media only screen and (max-width: 1446px) {
+  .contactPageDescription {
+    width: 70%;
+  }
+  .rowContactPage {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .infoCards_contact {
+    width: 26%;
+    gap: 0px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .infoCards_contact {
+    width: 26%;
+    margin: 10px 5px;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  .contact_page_main_website {
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+}
+@media only screen and (max-width: 960px) {
+  .agency_info_card_three {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .agency_info_card_three {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .infoCards_contact {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .infoCards_contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .office_distance {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .contactPageDescription {
+    display: none;
+  }
+  .contact_page_control_input {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact_main_page_input {
+    width: 97%;
+  }
+  .conatctPageSlider p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+  .conatctPageSlider h1 {
+    height: 28%;
+    width: 100%;
+  }
+}
