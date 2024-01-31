@@ -5,7 +5,7 @@ const Slider = () => {
     <div className="home_main_slider_component_Wrapper ">
     <div className="slider">
       <img
-        src="https://www.shalimarsmartcity.com/banner-images/home-banner-lg-1698304841754705458.jpg"
+        src="https://www.shalimarsmartcity.com/banner-images/home-banner-lg-17001198711800071982.jpg"
         alt=""
         className="slider_image"
       />
